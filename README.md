@@ -34,7 +34,9 @@ understand what kind of images the clusters grouped together: did the features "
 that represented the actual objects, or was it perhaps the case that due to image characteristics (sharp edges,
 confusing backgrounds, etc) the clusters were not representative of single object classes? Perhaps unsurprisingly,
 we found the combination of the GMM and SIFT features with k=1000 to be the most effective under those general
-evaluation criteria.
+evaluation criteria. As a side product of the work, we experimented with various values for the expected cluster 
+number on Caltech 101 (C = 2, 3, 5 and 10) to try to understand how the different labels are distributed across clusters.
+Our results are plotted in the included documentation.
 
 - Documentation:
 
