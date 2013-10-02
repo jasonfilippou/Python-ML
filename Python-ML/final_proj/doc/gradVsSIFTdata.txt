@@ -1,0 +1,9 @@
+1) In SIFT dataset, total number of Caltech 101 images: 8677
+
+2) In Gradients dataset, training images: 4467, validation images: 2406, testing images: 2323. 
+
+
+So there exists a discrepancy between images in SIFT dataset and images in Gradients dataset, and there's no way we can find which is which.
+
+To experiment with SIFT, we will need to take about 50% of the images. We will do this via bootstrap re-sampling with aim to retrieve 
+4367 examples. In the end, we will average our results over all those samples.
